@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Data files (avoid committing large datasets)
+*.xlsx
+*.xls
+*.csv
+*.parquet
+
+# Trained model binaries (large files — use Git LFS if needed)
+# Trained Models/  <-- uncomment to exclude model pickles
+*.tmp
+*.log
+
+# OS / editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE settings
+.vscode/
+.idea/
+
+# Credentials / secrets
+.env
+*.env
+secrets.py
